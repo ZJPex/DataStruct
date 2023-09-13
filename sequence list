@@ -1,1 +1,16 @@
+#include <stdio.h>
 
+#define MAXN 1024
+#define DateType int
+// #define 宏名 替代的东西
+//这个是宏定义，在整个源文件都可以用，其后不用加;
+
+struct SeqList
+{
+  DateType data[MAXN];
+  int length;
+}
+
+int main(
+  
+{
